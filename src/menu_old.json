@@ -1,0 +1,505 @@
+[
+	{	
+		"group" : "shuruat",
+		"translation": "appetizers",
+		"items" : [
+			{
+				"name" : "samosa (2 pc)",
+				"description" : "two crispy fried turnovers stuffed with green peas and potatoes",
+				"price" : 5
+			},
+			{
+				"name" : "aloo tikki chaat",
+				"description" : "mashed potatoes and green peas patties served with yogurt, onion, chickpeas, and chutney",
+				"price" : 8,
+				"gfAvailable": true
+			},
+			{
+				"name" : "papdi chaat",
+				"description" : "crispy flour crackers served with yogurt, potatoes, onions, chickpeas, and chutney",
+				"price" : 7.50
+			},
+			{
+				"name" : "gobhi pakora",
+				"description" : "fresh cauliflower deep-fried in a spiced chickpea batter",
+				"price" : 8,
+				"veganAvailable": true
+			},
+			{
+				"name" : "palak chaat",
+				"description" : "spinach crackers served with chickpeas, potatoes, and sauces",
+				"price" : 8
+			},
+			{
+				"name" : "masala fries",
+				"description" : "Indian-style spicy potato french fries",
+				"price" : 9,
+				"gfAvailable": true
+			},
+			{
+				"name" : "reshmi kabab (6 pc)",
+				"description" : "ground chick'n marinated in curd, cream, cashews, and spices, then grilled in a tandoor",
+				"price" : 12,
+				"gfAvailable": true
+			}
+		]
+	},
+	{ 
+		"group" : "tandoori breads",
+		"items" : [
+			{
+				"name": "naan",
+				"description": "tandoor-baked white bread",
+				"price": 3
+			},
+			{
+				"name": "garlic naan",
+				"description": "stuffed with fresh garlic and herbs",
+				"price": 3.50
+			},
+			{
+				"name": "pashawari naan",
+				"description": "naan stuffed with cashew nuts, raisins, almonds, and sweet coconut",
+				"price": 5.5
+			},
+			{
+				"name": "aloo naan",
+				"description": "bread stuffed with delicately spiced potatoes and ginger",
+				"price": 4
+			},
+			{
+				"name": "onion kulcha",
+				"description": "scrumptious unleavened bread stuffed with onions, fresh cilantro, and cumin seeds",
+				"price": 3.80
+			},
+			{
+				"name": "paneer kulcha",
+				"description": "exotic unleavened bread stuffed with homemade cheese",
+				"price": 5
+			},
+
+			{
+				"name": "tandoori roti",
+				"description": "tandoor-baked whole wheat bread",
+				"price": 3,
+				"veganAvailable": true
+			},
+			{
+				"name": "bread basket",
+				"description": "pashwari, paneer, onion, and garlic naan served with mango chutney",
+				"price": 15
+			}
+		]
+	},
+	{
+		"group": "tandoori khazana",
+		"translation" : "tandoori treasures",
+		"items": [
+			{
+				"name": "ginger garlic jhinga",
+				"description": "fresh jumbo shrimp gently seasoned and slowly broiled in tandoor with chef's special fresh spices",
+				"price": 19.50,
+				"gfAvailable": true
+			},
+			{
+				"name": "lamb seekh kabab",
+				"description": "ground lamb seasoned with onion, bell pepper, fresh cilantro, cloves, and herbs",
+				"price": 19,
+				"gfAvailable": true
+			},
+			{
+				"name": "punjabi tikka",
+				"description": "boneless cubes of chicken breast marinated in yogurt, fenugreek leaves, ginger, garlic, and spices, then barbecued in tandoor",
+				"price": 16,
+				"gfAvailable": true
+			},
+			{
+				"name": "tandoori murg",
+				"description": "chicken marinated in yogurt, lemon, and herbs, then barbecued in tandoor",
+				"price": 16,
+				"gfAvailable": true
+			},
+			{
+				"name": "fish tikka",
+				"description": "fresh salmon marinated in yogurt, cinnamon, ginger, garlic, and spices, then barbecued in tandoor",
+				"price": 19.50,
+				"gfAvailable": true
+			},
+			{
+				"name": "paneer tikka",
+				"description": "cubes of cheese marinated in yogurt, fenugreek leaves, ginger, garlic, and spices, then barbecued in tandoor",
+				"price": 15.50,
+				"gfAvailable": true
+			}
+		]
+	},
+	{
+		"group" : "samunderi se",
+		"translation": "seafood",
+		"items": [
+			{
+				"name": "shrimp tikka karahi",
+				"description": "shrimp sautéed with fresh garlic, ginger, scallions, green bell pepper and tomatoes",
+				"price": 19,
+				"gfAvailable": true
+			},
+			{
+				"name": "shrimp tikka masala",
+				"description": "shrimp cooked in rich creamy tomato onion sauce, and herbs",
+				"price": 19.50,
+				"gfAvailable": true
+			},
+			{
+				"name": "shrimp tikka vindaloo",
+				"description": "shrimp cooked with potatoes in a sharply spiced sauce",
+				"price": 19.50,
+				"gfAvailable": true
+			},
+			{
+				"name": "fish tikka masala",
+				"description": "fish cooked in rich creamy tomato onion sauce, and herbs",
+				"price": 19.50,
+				"gfAvailable": true
+			},
+			{
+				"name": "fish tikka vindaloo",
+				"description": "fish cooked with potatoes in a sharply spiced sauce",
+				"price": 19.50,
+				"gfAvailable": true
+			}
+		]
+	},
+	{
+		"group": "murg khazana",
+		"translation": "chicken treasures",
+		"items": [
+			{
+				"name": "punjabi tikka masala",
+				"description": "boneless cubes of chicken broiled in the tandoor and cooked in a rich creamy tomato onion sauce with herbs",
+				"price": 16,
+				"gfAvailable": true
+			},
+			{
+				"name": "murg korma",
+				"description": "boneless chicken cooked with exotic spices, herbs, and nuts in a mild creamy onion sauce",
+				"price": 16,
+				"gfAvailable": true
+			},
+			{
+				"name": "murg vindaloo",
+				"description": "boneless chicken cooked with potatoes in a sharply spiced sauce",
+				"price": 16,
+				"gfAvailable": true
+			},
+			{
+				"name": "murg saag",
+				"description": "boneless chicken cooked with chopped fresh spinach and herbs",
+				"price": 16,
+				"gfAvailable": true
+			},
+			{
+				"name": "murg makhani",
+				"description": "chicken broiled in the tandoor and cooked in rich creamy tomato onion sauce and herbs",
+				"price": 14
+			},
+			{
+				"name": "murg karahi",
+				"description": "boneless chicken sautéed with fresh garlic, ginger, scallions, green bell pepper and tomatoes",
+				"price": 16,
+				"gfAvailable": true
+			},
+			{
+				"name": "murg madras",
+				"description": "chicken cooked with onion sauce and coconut",
+				"price": 16
+			},
+			{
+				"name": "chilly chicken",
+				"description": "(chef's special) marinated boneless chicken cooked punjabi style with fresh onion, bell pepper, tomato, and herbs",
+				"price": 17
+			},
+			{
+				"name": "chicken curry",
+				"description": "chicken curry",
+				"price": 16
+			}
+		]
+	},
+	{
+		"group" : "gosht laziz",
+		"translation" : "delicious lamb",
+		"items": [
+			{
+				"name": "lamb karahi",
+				"description": "cubes of lamb sautéed with fresh ginger, garlic, scallions, green bell peppers, and tomatoes",
+				"price": 19,
+				"gfAvailable": true
+			},
+			{
+				"name": "lamb vindaloo",
+				"description": "cubes of lamb cooked with potatoes in a sharply spiced sauce",
+				"price": 19,
+				"gfAvailable": true
+			},
+			{
+				"name": "lamb masala",
+				"description": "cubes of lamb cooked in a rich creamy tomato onion sauce, fenugreek leaves, and herbs",
+				"price": 18,
+				"gfAvailable": true
+			},
+			{
+				"name": "lamb korma",
+				"description": "lamb cooked with exotic spices, herbs, and nuts in a mild creamy onion sauce",
+				"price": 19,
+				"gfAvailable": true
+			},
+			{
+				"name": "lamb roganjosh",
+				"description": "cubes of lamb cooked in chopped tomatoes and light sauce",
+				"price": 19,
+				"gfAvailable": true
+			},
+			{
+				"name": "lamb saag",
+				"description": "cubes of lamb cooked with chopped fresh spinach and herbs",
+				"price": 19
+			},
+			{
+				"name": "lamb kofta",
+				"description": "ground lamb cooked with chopped fresh spinach and herbs",
+				"price": 19
+			},
+			{
+				"name": "goat curry",
+				"description": "cubes of bone cooked in chopped tomatoes and light sauce",
+				"price": 24,
+				"gfAvailable": true
+			}
+		]
+	},
+	{
+		"group": "subzi mandi", 
+		"translation": "vegetable specialties",
+		"items": [
+			{
+				"name": "paneer tikka masala",
+				"description": "cheese broiled in tandoor and cooked in a rich creamy tomato, onion sauce with ginger, garlic, and herbs",
+				"price": 15.5,
+				"gfAvailable": true
+			},
+			{
+				"name": "shahi paneer",
+				"description": "homemade cheese cubes cooked in a creamy tomato and onion sauce",
+				"price": 14,
+				"gfAvailable": true
+			},
+			{
+				"name": "malai kofta",
+				"description": "mixed vegetable balls cooked in mildly spiced creamy sauce",
+				"price": 14,
+				"gfAvailable": true
+			},
+			{
+				"name": "navrattan korma",
+				"description": "garden fresh vegetables cooked with yogurt, coconut, fruits, and nuts",
+				"price": 13.50,
+				"gfAvailable": true
+			},
+			{
+				"name": "dum aloo",
+				"description": "spiced potatoes with homemade cheese",
+				"price": 14,
+				"gfAvailable": true
+			},
+			{
+				"name": "bhindi masala",
+				"description": "fresh okra cooked with fresh onions, ginger, and tomatoes",
+				"price": 14.50,
+				"gfAvailable": true,
+				"veganAvailable": true
+			},
+			{
+				"name": "mixed vegetables",
+				"description": "fresh vegetables cooked with ginger, garlic, onion, and mildly spiced thick sauce",
+				"price": 14,
+				"gfAvailable": true,
+				"veganAvailable": true
+			},
+			{
+				"name": "aloo gobhi",
+				"description": "fresh cauliflower and potatoes cooked with ginger, garlic, tomatoes, and spices",
+				"price": 14,
+				"gfAvailable": true,
+				"veganAvailable": true
+			},
+			{
+				"name": "punjabi chana",
+				"description": "chickpeas, onions, and fresh tomatoes cooked in traditional spices",
+				"price": 13,
+				"gfAvailable": true,
+				"veganAvailable": true
+			},
+			{
+				"name": "dal makhani",
+				"description": "lentils cooked with green onions, ginger, garlic, and choice of chef's herbs",
+				"price": 13,
+				"gfAvailable": true,
+				"veganAvailable": true
+			},
+			{
+				"name": "palak paneer",
+				"description": "homemade cheese cubes cooked with fresh chopped spinach and herbs",
+				"price": 14,
+				"gfAvailable": true
+			},
+			{
+				"name": "baingan bhartha",
+				"description": "fresh eggplants roasted in a clay oven and cooked with green peas, fresh tomatoes, onions, ginger, and garlic",
+				"price": 14,
+				"gfAvailable": true
+			},
+			{
+				"name": "kadi pakora",
+				"description": "Fritters simmered in a creamy, tangy, and spiced yogurt curry",
+				"price": 14,
+				"gfAvailable": true
+			}
+		]
+	},
+	{
+		"group": "biryani",
+		"translation": "mixed rice dishes",
+		"items": [
+			{
+				"name": "vegetable biryani",
+				"description": "Indian basmati rice cooked with fresh vegetables, cashew nuts, and golden raisins",
+				"price": 15
+			},
+			{
+				"name": "chicken biryani",
+				"description": "Indian basmati rice cooked with boneless chicken, onions, fresh ginger, nuts, and delicate spices",
+				"price": 16
+			},
+			{
+				"name": "lamb biryani",
+				"description": "Indian basmati rice cooked with tender cubes of lamb, onions, herbs, nuts, and spices",
+				"price": 19.5
+			},
+			{
+				"name": "shere-e-punjab special biryani",
+				"description": "Chef's own combination of authentic Indian spices, cooked with tender pieces of lamb, chicken, and fresh vegetables",
+				"price": 20
+			}
+		]
+	},
+	{
+		"group": "sides and sauces",
+		"items": [
+			{
+				"name": "raita",
+				"description": "fresh whipped yogurt with grated carrots, cucumbers, and spices",
+				"price": 3.50
+			},
+			{
+				"name": "mango chutney",
+				"description": "sweet and sour mango relish",
+				"price": 2.50
+			},
+			{
+				"name": "achar",
+				"description": "mixed pickles",
+				"price": 2.50
+			},
+			{
+				"name": "papadam",
+				"description": "A thin, crisp bread made from lentil flour",
+				"price": 3
+			},
+			{
+				"name": "rice",
+				"description": "basmati rice",
+				"price": 3.50
+			}
+		]
+	},
+	{
+		"group": "desserts",
+		"items": [
+			{
+				"name": "kheer",
+				"description": "Indian rice pudding",
+				"price": 3.5
+			},
+			{
+				"name": "gulab jamun",
+				"description": "honey-rolled milk balls",
+				"price": 3.5
+			},
+			{
+				"name": "kulfi",
+				"description": "indian-style ice cream flavored with nuts and cardamom seeds",
+				"price": 4
+			},
+			{
+				"name": "mango ice cream",
+				"description": "mango ice cream",
+				"price": 4
+			},
+			{
+				"name": "molten chocolate cake",
+				"description": "a soft chocolate cake with a liquid center",
+				"price": 4
+			},
+			{
+				"name": "banana caramel cheesecake",
+				"description": "banana caramel cheesecake",
+				"price": 8
+			}
+		]
+	},
+	{
+		"group": "beverages",
+		"items": [
+			{
+				"name": "mango lassi",
+				"description": "fresh mangoes with yogurt",
+				"price": 3.5
+			},
+			{
+				"name": "salt lassi",
+				"description": "fresh yogurt with salt spices",
+				"price": 3
+			},
+			{
+				"name": "sweet lassi",
+				"description": "fresh yogurt with sweet and cardamom",
+				"price": 3
+			},
+			{
+				"name": "water bottle",
+				"description": "20 oz",
+				"price": 1.25
+			},
+			{
+				"name": "Coke",
+				"description": "20 oz",
+				"price": 2.25
+			},
+			{
+				"name": "Diet Coke",
+				"description": "20 oz",
+				"price": 2.25
+			},
+			{
+				"name": "Ginger Ale",
+				"description": "20 oz",
+				"price": 2.25
+			},
+			{
+				"name": "Sprite",
+				"description": "20 oz",
+				"price": 2.25
+			}
+		]
+	}
+]

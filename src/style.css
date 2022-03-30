@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Pompiere:wght@400&family=Dosis:wght@200..800&display=swap');
+
+*,*::before,*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+:root {
+  --max-width: 70rem;
+
+  --black: hsl(0 0% 10%);
+  --green: hsl(120 100% 35%);
+  --yellow: hsl(60 100% 90%);
+  --red: hsl(0 100% 50%);
+  --brown: hsl(40 100% 5%);
+  
+  --color-bg: var(--yellow);
+  --color-bg-header: var(--green);
+  --color-bg-footer: var(--brown);
+  --color-text: var(--brown);
+  --color-text-header: var(--yellow);
+  --color-text-footer: var(--yellow);
+  --color-accent: var(--red);
+
+  --font-family: "Dosis", sans-serif;
+  --font-titles: "Pompiere", serif;
+  --font-size: clamp(1rem, 1rem + 5vmin, 1.5rem);
+  --font-size-xs: calc(0.5 * var(--font-size));
+  --font-size-sm: calc(0.75 * var(--font-size));
+  --font-size-lg: calc(1.25 * var(--font-size));
+  --font-size-xl: calc(2 * var(--font-size));
+  --font-size-xxl: calc(3 * var(--font-size));
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+  --font-weight-light: 200;
+
+}
+
+html {
+  min-height: 100vh;
+  background-color: var(--color-bg-footer);}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+}
+
+h1,h2,h3, .site-title {
+  font-family: var(--font-titles);  
+  margin-block-end: 0.5em;
+  font-weight: var(--font-weight-normal);
+}
+
+.site-title {font-size: var(--font-size-xxl); text-align: center;}
+h1 { font-size: var(--font-size-xl); }
+h2 { font-size: var(--font-size-lg); }
+
+p {
+  line-height: 1.4;
+  margin-block-end: 0.25em;
+}
+
+dfn {
+  font-style: italic;
+  border-bottom: 2px dotted var(--color-accent);
+}
+
+img, svg {
+  display: block;
+  max-width: 100%;
+}
+
+.site-header { 
+  padding-block: 1rem 0;
+  background-color: var(--color-bg-header);
+  color: var(--color-text-header);
+}
+
+.site-nav {
+  display: flex;
+  justify-content: center;
+  gap: 0.5em;
+}
+
+.nav-button {
+  padding: 0.125em 0.5em;
+  border-radius: .25em .25em 0 0;
+  cursor: pointer;
+  border: 0;
+  background-color: transparent;
+  color: var(--yellow);
+  outline: 2px solid transparent;
+  transition: background-color 200ms linear, color 200ms linear, outline 50ms linear;
+  font-weight: var(--font-weight-bold);
+  font-family: var(--font-titles);
+}
+
+.nav-button:hover, .nav-button:focus {
+  background-color: var(--yellow);
+  color: var(--green);
+  outline-color: var(--yellow);
+}
+
+.nav-button.active {
+  background-color: var(--yellow);
+  color: var(--green);
+  outline-color: var(--yellow);
+}
+
+main,footer {
+  padding-block: 1rem;
+  padding-inline: max(1rem, 50% - var(--max-width) / 2);
+}
+
+main {min-height: 70vh;}
+
+footer {
+  background-color: var(--color-bg-footer);
+  color: var(--color-text-footer);
+}
+
+.menu-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(20rem, 1fr));
+  align-items: start;
+  gap: 1rem;
+}
+
+.menu-section header {
+  grid-column: 1/-1;
+}
+
+.menu-group {
+  background-color: white;
+  padding: 1rem;
+}
+
+.menu-items {
+  list-style-type: none;
+}
+
+.menu-item {
+  display: grid;
+  grid-template-areas: "title title"
+                       "description price";
+  justify-content: space-between;
+  margin-block-end: 1rem;
+  gap: 1rem;
+}
+
+.menu-item h3 {grid-area: title;}
+.menu-item-description {grid-area: description;}
+.menu-item-price {grid-area: price;}
+.menu-item-price::before {
+  content: "$";
+}
+.modal {
+  position: absolute;
+  inset: 0;
+  background-color: hsla(0, 0%, 100%, 0.4);
+  
+}
+.modal-container {
+  margin-block-start: 2rem;
+  background-color: var(--color-primary);
+  color: var(--color-bg);
+  border: 2px solid currentColor;
+  margin-inline: auto;
+  padding: 2em;
+  width: min(100% - 2rem, 25rem);
+  position: relative;
+  font-size: var(--font-size-sm);
+}
+
+.close-modal {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: none;
+  border-radius: 50%;
+  background-color: transparent;
+  cursor: pointer;
+  width: 1.5em;
+  padding: 0;
+  aspect-ratio: 1/1;
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-bold);
+}
+
+.display-none { display: none; }

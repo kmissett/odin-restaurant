@@ -1,0 +1,234 @@
+[
+	{	
+		"group" : "chaat",
+		"translation": "snacks",
+		"items" : [
+			{
+				"name" : "samosa",
+				"description" : "crispy fried turnovers stuffed with green peas and potatoes",
+				"price" : 6,
+        "veganAvailable": true
+      },
+			{
+				"name" : "gobi pakora",
+				"description" : "fresh cauliflower deep-fried in a spiced chickpea batter",
+				"price" : 8,
+        "veganAvailable": true
+			},
+			{
+				"name" : "dahi vada",
+				"description" : "fried dumplings made from a spiced chickpea batter, then soaked in a yogurt sauce and topped with chaat masala",
+				"price" : 8
+			},
+      {
+        "name": "aloo chaat",
+        "description": "parboiled potatoes, fried and mixed with chopped onions, spices, and chutney",
+        "price": 6
+      },
+      {
+        "name": "aloo tikki chaat",
+        "description": "parboiled potatoes, fried and mixed with chopped onions, spices, and chutney",
+        "price": 6
+      }
+		]
+	},
+	{
+		"group": "subzi mandi", 
+		"translation": "vegetable specialties",
+		"items": [
+			{
+				"name": "paneer tikka masala",
+				"description": "cheese broiled in tandoor and cooked in a rich creamy tomato, onion sauce with ginger, garlic, and herbs",
+				"price": 15.5,
+				"gfAvailable": true
+			},
+			{
+				"name": "shahi paneer",
+				"description": "homemade cheese cubes cooked in a creamy tomato and onion sauce",
+				"price": 14,
+				"gfAvailable": true
+			},
+			{
+				"name": "malai kofta",
+				"description": "mixed vegetable balls cooked in mildly spiced creamy sauce",
+				"price": 14,
+				"gfAvailable": true
+			},
+			{
+				"name": "navrattan korma",
+				"description": "garden fresh vegetables cooked with yogurt, coconut, fruits, and nuts",
+				"price": 13.50,
+				"gfAvailable": true
+			},
+			{
+				"name": "dum aloo",
+				"description": "spiced potatoes with homemade cheese",
+				"price": 14,
+				"gfAvailable": true
+			},
+			{
+				"name": "bhindi masala",
+				"description": "fresh okra cooked with fresh onions, ginger, and tomatoes",
+				"price": 14.50,
+				"gfAvailable": true,
+				"veganAvailable": true
+			},
+			{
+				"name": "mixed vegetables",
+				"description": "fresh vegetables cooked with ginger, garlic, onion, and mildly spiced thick sauce",
+				"price": 14,
+				"gfAvailable": true,
+				"veganAvailable": true
+			},
+			{
+				"name": "aloo gobhi",
+				"description": "fresh cauliflower and potatoes cooked with ginger, garlic, tomatoes, and spices",
+				"price": 14,
+				"gfAvailable": true,
+				"veganAvailable": true
+			},
+			{
+				"name": "punjabi chana",
+				"description": "chickpeas, onions, and fresh tomatoes cooked in traditional spices",
+				"price": 13,
+				"gfAvailable": true,
+				"veganAvailable": true
+			},
+			{
+				"name": "dal makhani",
+				"description": "lentils cooked with green onions, ginger, garlic, and choice of chef's herbs",
+				"price": 13,
+				"gfAvailable": true,
+				"veganAvailable": true
+			},
+			{
+				"name": "palak paneer",
+				"description": "homemade cheese cubes cooked with fresh chopped spinach and herbs",
+				"price": 14,
+				"gfAvailable": true
+			},
+			{
+				"name": "baingan bhartha",
+				"description": "fresh eggplants roasted in a clay oven and cooked with green peas, fresh tomatoes, onions, ginger, and garlic",
+				"price": 14,
+				"gfAvailable": true
+			},
+			{
+				"name": "kadi pakora",
+				"description": "Fritters simmered in a creamy, tangy, and spiced yogurt curry",
+				"price": 14,
+				"gfAvailable": true
+			}
+		]	
+	},
+	{
+		"group": "sides and sauces",
+		"items": [
+			{
+				"name": "raita",
+				"description": "fresh whipped yogurt with grated carrots, cucumbers, and spices",
+				"price": 3.50
+			},
+			{
+				"name": "mango chutney",
+				"description": "sweet and sour mango relish",
+				"price": 2.50
+			},
+			{
+				"name": "achar",
+				"description": "mixed pickles",
+				"price": 2.50
+			},
+			{
+				"name": "papadam",
+				"description": "A thin, crisp bread made from lentil flour",
+				"price": 3
+			},
+			{
+				"name": "rice",
+				"description": "basmati rice",
+				"price": 3.50
+			}
+		]
+	},
+	{
+		"group": "desserts",
+		"items": [
+			{
+				"name": "kheer",
+				"description": "Indian rice pudding",
+				"price": 3.5
+			},
+			{
+				"name": "gulab jamun",
+				"description": "honey-rolled milk balls",
+				"price": 3.5
+			},
+			{
+				"name": "kulfi",
+				"description": "indian-style ice cream flavored with nuts and cardamom seeds",
+				"price": 4
+			},
+			{
+				"name": "mango ice cream",
+				"description": "mango ice cream",
+				"price": 4
+			},
+			{
+				"name": "molten chocolate cake",
+				"description": "a soft chocolate cake with a liquid center",
+				"price": 4
+			},
+			{
+				"name": "banana caramel cheesecake",
+				"description": "banana caramel cheesecake",
+				"price": 8
+			}
+		]
+	},
+	{
+		"group": "beverages",
+		"items": [
+			{
+				"name": "mango lassi",
+				"description": "fresh mangoes with yogurt",
+				"price": 3.5
+			},
+			{
+				"name": "salt lassi",
+				"description": "fresh yogurt with salt spices",
+				"price": 3
+			},
+			{
+				"name": "sweet lassi",
+				"description": "fresh yogurt with sweet and cardamom",
+				"price": 3
+			},
+			{
+				"name": "water bottle",
+				"description": "20 oz",
+				"price": 1.25
+			},
+			{
+				"name": "Coke",
+				"description": "20 oz",
+				"price": 2.25
+			},
+			{
+				"name": "Diet Coke",
+				"description": "20 oz",
+				"price": 2.25
+			},
+			{
+				"name": "Ginger Ale",
+				"description": "20 oz",
+				"price": 2.25
+			},
+			{
+				"name": "Sprite",
+				"description": "20 oz",
+				"price": 2.25
+			}
+		]
+	}
+]
