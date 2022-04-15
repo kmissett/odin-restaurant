@@ -1,4 +1,5 @@
 import "./style.css"
+
 import renderHeader from "./header"
 import renderHome from "./home"
 import renderAbout from "./about"
@@ -20,11 +21,18 @@ const pageLoad = (() => {
   document.body.appendChild(main)
 
   renderHome()
-  renderAbout()
   renderMenu()
+  renderAbout()
   renderContact()
 
   renderFooter()
+  
+  // set menu page as active initially
+  document.getElementById("menu").classList.remove("display-none")
+  document.querySelector(`[data-section="menu"]`).classList.add("active")
+  
+  
+
 })()
 
 const sectionButtons = document.querySelectorAll(".nav-button")

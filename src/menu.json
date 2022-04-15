@@ -1,6 +1,6 @@
 [
 	{	
-		"group" : "chaat",
+		"category" : "chaat",
 		"translation": "snacks",
 		"items" : [
 			{
@@ -16,6 +16,12 @@
         "veganAvailable": true
 			},
 			{
+				"name": "kadhi pakora",
+				"description": "onion fritters simmered in a creamy, tangy, and spiced yogurt curry",
+				"price": 14,
+				"gfAvailable": true
+			},
+			{
 				"name" : "dahi vada",
 				"description" : "fried dumplings made from a spiced chickpea batter, then soaked in a yogurt sauce and topped with chaat masala",
 				"price" : 8
@@ -23,19 +29,22 @@
       {
         "name": "aloo chaat",
         "description": "parboiled potatoes, fried and mixed with chopped onions, spices, and chutney",
-        "price": 6
-      },
-      {
-        "name": "aloo tikki chaat",
-        "description": "parboiled potatoes, fried and mixed with chopped onions, spices, and chutney",
-        "price": 6
+        "price": 6,
+				"gfAvailable": true,
+				"veganAvailable": true
       }
 		]
 	},
 	{
-		"group": "subzi mandi", 
-		"translation": "vegetable specialties",
+		"category": "paneer", 
+		"translation": "cheese cubes",
 		"items": [
+			{
+				"name": "palak paneer",
+				"description": "paneer cooked with fresh chopped spinach and herbs",
+				"price": 14,
+				"gfAvailable": true
+			},
 			{
 				"name": "paneer tikka masala",
 				"description": "cheese broiled in tandoor and cooked in a rich creamy tomato, onion sauce with ginger, garlic, and herbs",
@@ -47,23 +56,69 @@
 				"description": "homemade cheese cubes cooked in a creamy tomato and onion sauce",
 				"price": 14,
 				"gfAvailable": true
-			},
+			}
+		]
+	},
+	{
+		"category": "aloo", 
+		"translation": "potatoes",
+		"items": [
 			{
-				"name": "malai kofta",
-				"description": "mixed vegetable balls cooked in mildly spiced creamy sauce",
+				"name": "aloo gobhi",
+				"description": "fresh cauliflower and potatoes cooked with ginger, garlic, tomatoes, and spices",
 				"price": 14,
-				"gfAvailable": true
-			},
-			{
-				"name": "navrattan korma",
-				"description": "garden fresh vegetables cooked with yogurt, coconut, fruits, and nuts",
-				"price": 13.50,
-				"gfAvailable": true
+				"gfAvailable": true,
+				"veganAvailable": true
 			},
 			{
 				"name": "dum aloo",
 				"description": "spiced potatoes with homemade cheese",
 				"price": 14,
+				"gfAvailable": true
+			},
+			{
+        "name": "aloo tikki",
+        "description": "fried potato patties, filled with a spiced pea mixture, served with an array of sauces",
+        "price": 14,
+				"gfAvailable": true,
+				"veganAvailable": true
+      }
+		]
+	},
+	{	
+		"category": "dal",
+		"translation": "lentils",
+		"items": [
+			{
+				"name": "dal makhani",
+				"description": "lentils cooked with green onions, ginger, garlic, and choice of chef's herbs",
+				"price": 13,
+				"gfAvailable": true,
+				"veganAvailable": true
+			}
+		]
+	},
+	{	
+		"category": "chana",
+		"translation": "chickpeas",
+		"items": [
+			{
+				"name": "punjabi chana",
+				"description": "chickpeas, onions, and fresh tomatoes cooked in traditional spices",
+				"price": 13,
+				"gfAvailable": true,
+				"veganAvailable": true
+			}
+		]
+	},
+	{
+		"category": "dal",
+		"translation": "lentils",
+		"items": [
+			{
+				"name": "navrattan korma",
+				"description": "garden fresh vegetables cooked with yogurt, coconut, fruits, and nuts",
+				"price": 13.50,
 				"gfAvailable": true
 			},
 			{
@@ -79,50 +134,17 @@
 				"price": 14,
 				"gfAvailable": true,
 				"veganAvailable": true
-			},
-			{
-				"name": "aloo gobhi",
-				"description": "fresh cauliflower and potatoes cooked with ginger, garlic, tomatoes, and spices",
-				"price": 14,
-				"gfAvailable": true,
-				"veganAvailable": true
-			},
-			{
-				"name": "punjabi chana",
-				"description": "chickpeas, onions, and fresh tomatoes cooked in traditional spices",
-				"price": 13,
-				"gfAvailable": true,
-				"veganAvailable": true
-			},
-			{
-				"name": "dal makhani",
-				"description": "lentils cooked with green onions, ginger, garlic, and choice of chef's herbs",
-				"price": 13,
-				"gfAvailable": true,
-				"veganAvailable": true
-			},
-			{
-				"name": "palak paneer",
-				"description": "homemade cheese cubes cooked with fresh chopped spinach and herbs",
-				"price": 14,
-				"gfAvailable": true
-			},
+			},	
 			{
 				"name": "baingan bhartha",
 				"description": "fresh eggplants roasted in a clay oven and cooked with green peas, fresh tomatoes, onions, ginger, and garlic",
-				"price": 14,
-				"gfAvailable": true
-			},
-			{
-				"name": "kadi pakora",
-				"description": "Fritters simmered in a creamy, tangy, and spiced yogurt curry",
 				"price": 14,
 				"gfAvailable": true
 			}
 		]	
 	},
 	{
-		"group": "sides and sauces",
+		"category": "sides and sauces",
 		"items": [
 			{
 				"name": "raita",
@@ -152,7 +174,7 @@
 		]
 	},
 	{
-		"group": "desserts",
+		"category": "desserts",
 		"items": [
 			{
 				"name": "kheer",
@@ -187,7 +209,7 @@
 		]
 	},
 	{
-		"group": "beverages",
+		"category": "beverages",
 		"items": [
 			{
 				"name": "mango lassi",

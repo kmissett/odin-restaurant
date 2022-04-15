@@ -4,7 +4,7 @@ const renderHome = () => {
 
   const homeSection = document.createElement("section")
   homeSection.id = "home"
-  homeSection.classList.add("section","home-section")
+  homeSection.classList.add("section","home-section", "display-none")
   homeSection.innerHTML = `<h1>Welcome!</h1>`
 
   main.appendChild(homeSection)
