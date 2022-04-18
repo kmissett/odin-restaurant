@@ -7,13 +7,13 @@
 				"name" : "samosa",
 				"description" : "crispy fried turnovers stuffed with green peas and potatoes",
 				"price" : 6,
-        "veganAvailable": true
-      },
+        		"veganAvailable": true
+      		},
 			{
 				"name" : "gobi pakora",
 				"description" : "fresh cauliflower deep-fried in a spiced chickpea batter",
 				"price" : 8,
-        "veganAvailable": true
+        		"veganAvailable": true
 			},
 			{
 				"name": "kadhi pakora",
@@ -26,13 +26,13 @@
 				"description" : "fried dumplings made from a spiced chickpea batter, then soaked in a yogurt sauce and topped with chaat masala",
 				"price" : 8
 			},
-      {
-        "name": "aloo chaat",
-        "description": "parboiled potatoes, fried and mixed with chopped onions, spices, and chutney",
-        "price": 6,
+      		{
+				"name": "aloo chaat",
+				"description": "parboiled potatoes, fried and mixed with chopped onions, spices, and chutney",
+				"price": 6,
 				"gfAvailable": true,
 				"veganAvailable": true
-      }
+      		}
 		]
 	},
 	{
@@ -77,12 +77,12 @@
 				"gfAvailable": true
 			},
 			{
-        "name": "aloo tikki",
-        "description": "fried potato patties, filled with a spiced pea mixture, served with an array of sauces",
-        "price": 14,
+        		"name": "aloo tikki",
+        		"description": "fried potato patties, filled with a spiced pea mixture, served with an array of sauces",
+        		"price": 14,
 				"gfAvailable": true,
 				"veganAvailable": true
-      }
+		    }
 		]
 	},
 	{	
@@ -93,6 +93,20 @@
 				"name": "dal makhani",
 				"description": "lentils cooked with green onions, ginger, garlic, and choice of chef's herbs",
 				"price": 13,
+				"gfAvailable": true,
+				"veganAvailable": true
+			},
+			{
+				"name": "palak dal",
+				"description": "lentils with spinach, topped with a cumin, mustard-seed, and chilli chhonk",
+				"price": 13,
+				"gfAvailable": true,
+				"veganAvailable": true
+			},
+			{
+				"name": "kali dal",
+				"description": "black lentils cooked with onions and green chillis in a tomato sauce",
+				"price": 14,
 				"gfAvailable": true,
 				"veganAvailable": true
 			}
@@ -108,32 +122,32 @@
 				"price": 13,
 				"gfAvailable": true,
 				"veganAvailable": true
+			},
+			{
+				"name": "chana paneer",
+				"description": "chickpeas and paneer in a tomato sauce, topped with a ginger-garlic chhonk",
+				"price": 13,
+				"gfAvailable": true,
+				"veganAvailable": true
+			},
+			{
+				"name": "chana biryani",
+				"description": "chickpeas, tomatoes, and onions, served in basmati rice cooked in coconut milk with herbs and spices",
+				"price": 15,
+				"gfAvailable": true,
+				"veganAvailable": true
 			}
 		]
 	},
 	{
-		"category": "dal",
-		"translation": "lentils",
+		"category": "subzi",
+		"translation": "other vegetables",
 		"items": [
 			{
 				"name": "navrattan korma",
 				"description": "garden fresh vegetables cooked with yogurt, coconut, fruits, and nuts",
-				"price": 13.50,
-				"gfAvailable": true
-			},
-			{
-				"name": "bhindi masala",
-				"description": "fresh okra cooked with fresh onions, ginger, and tomatoes",
-				"price": 14.50,
-				"gfAvailable": true,
-				"veganAvailable": true
-			},
-			{
-				"name": "mixed vegetables",
-				"description": "fresh vegetables cooked with ginger, garlic, onion, and mildly spiced thick sauce",
 				"price": 14,
-				"gfAvailable": true,
-				"veganAvailable": true
+				"gfAvailable": true
 			},	
 			{
 				"name": "baingan bhartha",
@@ -142,6 +156,42 @@
 				"gfAvailable": true
 			}
 		]	
+	},
+	{
+		"category": "breads",
+		"items": [
+			{
+				"name": "papadam",
+				"description": "A thin, crisp bread made from lentil flour",
+				"price": 3
+			},
+			{
+				"name": "paratha",
+				"description": "",
+				"price": 3
+			},
+			{
+				"name": "poori",
+				"description": "",
+				"price": 3
+			},
+			{
+				"name": "naan",
+				"description": "",
+				"price": 3
+			},
+			{
+				"name": "garlic naan",
+				"description": "",
+				"price": 3
+			},
+			{
+				"name": "pashwari naan",
+				"description": "",
+				"price": 4
+			}
+
+		]
 	},
 	{
 		"category": "sides and sauces",
@@ -160,11 +210,6 @@
 				"name": "achar",
 				"description": "mixed pickles",
 				"price": 2.50
-			},
-			{
-				"name": "papadam",
-				"description": "A thin, crisp bread made from lentil flour",
-				"price": 3
 			},
 			{
 				"name": "rice",
