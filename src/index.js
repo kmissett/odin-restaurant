@@ -27,29 +27,39 @@ const pageLoad = (() => {
 
   renderFooter()
   
-  // set menu page as active initially
-  document.getElementById("menu").classList.remove("display-none")
-  document.querySelector(`[data-section="menu"]`).classList.add("active")
-  
-  
+  // set contact page as active initially
+  const currentPage = document.getElementById("contact")
+  currentPage.classList.remove("display-none")
+
+  document.querySelector(`[data-section="contact"]`).classList.add("active")
 
 })()
 
-const sectionButtons = document.querySelectorAll(".nav-button")
-const sections = document.querySelectorAll(".section")
+const sections = document.querySelectorAll("main > section")
 
 const showPage = (e) => {  
   // don't do anything if someone clicks the current button
   if (e.target.classList.contains("active")) return
   const sectionToShow = e.target.dataset.section
   
+
+
   // show clicked section, hide others
-  sections.forEach(section => section.id === sectionToShow ? section.classList.remove("display-none") : section.classList.add("display-none"))
+  sections.forEach(section => {
+    if (section.id === sectionToShow) {
+      section.classList.remove("display-none") 
+      section.ariaCurrent="page"
+    } else {
+      section.classList.add("display-none") 
+      section.ariaCurrent=""
+    }
+  })
   
   // set active link
   sectionButtons.forEach(button => button.dataset.section === sectionToShow ? button.classList.add("active") : button.classList.remove("active"))
 
 }
 
+const sectionButtons = document.querySelectorAll(".nav-button")
 sectionButtons.forEach(button => button.addEventListener("click", showPage))
 

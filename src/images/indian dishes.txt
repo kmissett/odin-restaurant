@@ -1,0 +1,196 @@
+[
+{
+    group: "shuruat",
+    translation: "appetizers",
+    items: [
+        {
+            name: "samosas (2 pc)",
+            translation: "",
+            description: "",
+            price: "",
+            gf: false,
+            vegan: false
+            image: null
+        },
+        {
+            name: "",
+            translation: "",
+            description: "",
+            price: "",
+            gf: false,
+            vegan: false
+            image: null
+        },
+        {
+            name: "",
+            translation: "",
+            description: "",
+            price: "",
+            gf: false,
+            vegan: false
+            image: null
+        },
+    ]
+},
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+]
+
+
+1. Chana Masala
+2. Dal Chaawal
+Dal Fry or Dal Tadka
+Dal Makhani
+3. Kofta
+4. Kashmiri Dum Aloo
+5. Vegetable Biryani
+6. Rajma
+7. Masala Dosa
+8. Hara Bhara Kabab
+9. Baingan Bharta
+10. Aloo Puri
+11. Pakoras
+12. Chole Bathure
+
+
+Dal Tadka
+The most famous recipe is made with yellow lentis and tempered with oil or ghee and simple spices. A Dhaba style Dal Tadka and dal fry is all time favourite food of Indian.
+
+Malai Kofta
+The special occassions dish is very rich in tomato cream base sauce and goes very well with naans and Jeera Rice. Malai Kofta is has different version such as lauki ke kofte,kele ke kofte and kathal ke kofte.
+
+Navaratan Korma
+Navrattan Korma is delicious Mughlai dish made with the nine different list of vegetables,fruit and yogurt along with creamy sauce. A wide variation in the method of preparation is available with different flavours around the country.
+
+Mutter Paneer
+The North Indian curry made with mutter and paneer along with tomato based gravy. Mutter Paneer is most famous dish and loved by all vegetarians, usually served with naan, roti, chapati and paratha.
+
+Baingan Bharta
+Baingan Bharta is the simple combination of spices and herbs with Chargrilled brinjals, Also known as the Eggplant. Baingan ka bhurtha is very flavorful dish,easy to cook, healthy and tasty.
+
+Chana Masala
+Chana masala or chole masala is one of the traditional and most popular Punjabi dish. Chole masala taste delicious with a type of fried bread called chole bhature, one of the most famous street food in Delhi.
+
+Aloo Gobi
+aloo_gobi
+
+The dry Indian cuisine dish made with potatoes and cauliflower along with great blend of spices. A number of variations and similar kind of dishes serverd in different regions of India but the name remains the same as Aloo Gobi.
+
+Methi Saag
+Methi saag is a traditional Indian vegetable dish with fenugreek greens, Very simple to prepare and nutritious. The methi leaves are also used for aloo methi dish and methi paratha.
+
+Kadhi Pakoda
+The lip smacking Punjabi recipe is blend of yogurt and besan and served with rice or Chaptis. It is one of the most favorite North Indian dish cooked and can be eaten any time.
+
+Mixed Vegetable
+Mixed Vegetable is the combination of variety of green vegetables, delicious and easy to make recipe. The dish tastes great and served with plain rice, hot Chaptis or Parathas.
+
+Jackfruit Fry
+Kathal Ki Sabzi is good source of dietary fiber and one of the best option for vegetarians. Jackfruit Fry dish is easy to make but jackfruit is really very difficult to cut.
+
+
+Vegetable Curry
+
+If you are stuck with what to order, then you really cannot go wrong with a classic vegetable curry. Yes, this dish is basic, but it is truly delicious, and it is an excellent choice if it is your first time eating at an Indian restaurant as a vegetarian.
+
+It is also a great choice if you prefer milder curries, as most restaurants will allow you to tailor the spiciness of your vegetable curry to suit your taste buds.
+
+Malai Kofta
+
+While curries are the dish most commonly associated with Indian cuisine, you do not necessarily need to order a curry. Malai Kofta isn’t necessarily a curry, instead it is a dish that contains many ingredients in a sauce.
+
+From paneer cheese balls, to potatoes and vegetables, there are lots of different ingredients in Malai Kofta, and they are all flavored with many spices for great flavor. It is definitely one to try.
+
+Chole
+
+If you have eaten a vegetarian dish at an Indian restaurant before, then the chances are that this was chole. Chole is a chickpea curry that is considered to be one of the more basic vegetarian Indian dishes, but this doesn’t mean that it isn’t delicious.
+
+Chole is a quick curry to make, and it is packed with different flavors. It is also usually rather affordable due to the simplicity of this dish.
+
+Also Related: What to Know About the Different Types of Rice
+Paneer Pakoras
+
+There isn’t much better than cheese, and this is why Paneer Pakoras are always a great choice when you visit an Indian restaurant. Regardless of whether, or not, you are a vegetarian.
+
+To create this dish, paneer is chopped and coated in chickpea flour before being fried. It isn’t the healthiest of options, but it is truly delicious, and one of the Indian dishes that is most similar to Western cuisine.
+
+Gobi Makhani
+
+If you have previously eaten meat, then you might have enjoyed a Chicken Tikka Makhani curry from your local Indian restaurant. This is undoubtedly one of the best Indian dishes that exist, but if you no longer eat meat, you will be unable to enjoy it, right? Wrong! Instead, you should order the Gobi Makhani.
+
+This uses similar ingredients to a Chicken Tikka Makhani, but replaces chicken with a whole roasted butter cauliflower to create a truly delicious meal.
+
+Vegan Kofte
+
+In contrast to Malai Kofta which we looked at earlier, you can also order Vegan Kofte at most Indian restaurants. This dish uses courgette rather than paneer to form Kofte kebabs, which are usually served with a nutty sauce or a mint sauce on the side.
+
+It is very different from Malai Kofta, and the flavors of this dish aren’t for everyone. But if you are a vegan, then it is a brilliant option.
+
+Also Related: Best Red Wine Vinegar Brands
+Vegetable Biryani
+
+A lot of people expect a Biryani to be a curry, but it actually isn’t. Instead, a Biryani is a rice dish. Traditionally, Biryani is made using chicken, and this is a very popular dish. But, if you are a vegetarian, then you can also order a Vegetable Biriyani from most Indian restaurants.
+
+These two dishes are very similar to one another, the one key difference being that there is no chicken included in Vegetable Biryani. Other than that, these dishes taste very similar to one another.
+
+Aloo Gobi
+
+Speaking of non-curry dishes, next up we would suggest giving Aloo Gobi a try. If you love fries, then this is a great choice because the main ingredient in Aloo Gobi is potatoes.
+
+In this dish, potatoes are combined with cauliflower and a whole load of spices to create a very yummy side dish. While it is served as a side dish, Aloo Gobi is also a perfect choice if you want to pick at your food, and try a bit of everything.
+
+Mutter Paneer
+
+Moving back to cheese dishes, we would suggest giving Mutter Paneer a try. The names of Indian dishes are usually quite literal, so in this dish the ‘Mutter’ means peas, and the ‘Paneer’ means cheese. So, as you probably guessed, this dish contains peas and paneer cheese, both of which are mixed together in a tomato-based gravy.
+
+These ingredients could suggest that this dish is quite bland, but this isn’t the case, as lots of classic Indian spices are added to the sauce to ensure you get that kick with every bite you take.
+
+Also Related: Our Favorite Keto Cocktails
+Split Pea Yellow Dal
+
+Dal is one of the most popular Indian vegetarian dishes, and it is usually made using lentils. But, some Indian restaurants mix other ingredients in with these lentils to give the dish more flavor. One of the best variations of classic dal is Split Pea Yellow Dal. It has a hugely attractive appearance, and it tastes great to boot. So this is another dish that you have to try.
+
+Papdi Chaat
+
+There are two styles of Indian restaurants that you might visit, these are classic Indian restaurants and Indian Street Food restaurants. If you are visiting an Indian Street Food restaurant, then Papdi Chaat is the dish to order. It is crunchy and full of different flavors and textures to ensure that every single bite is new and fun.
+
+Baingan Bharta
+
+If you want a healthy Indian vegetarian dish, then you should consider ordering Baingan Bharta. This is a dish that is primarily made using eggplant, which is low in fat, and also low in calories. It isn’t the most exciting dish, in terms of spice, but it is rich and very tasty, so you have to give it a try.
+
+Also Related: The Best Wine Under $10
+Hara Bhara Kabab
+
+Indian kebabs are incredibly delicious, but most of the time they are designed using meat. Thankfully, there is a vegetarian alternative that exists, these are Hara Bhara Kababs. Instead of using meat, ingredients such as coriander, spinach, and peas are combined to form the kebab ‘meat’.
+
+When you cut into them, their green appearance can be a shock, but as soon as you taste them, you will realize the full potential of this dish.
+
+Masala Dosa
+
+You have heard of pancakes served with bacon, but you likely haven’t heard of pancakes served with lentils and potato before. Masala Dosa is a dish that uses crepe-style pancakes made using a batter of lentil and rice, and stuffs them with various savory ingredients. Masala Dosa is definitely unique, but it tastes outstanding, and it is definitely a dish that you should consider trying next time you visit an Indian restaurant.
+
+Baked Vegetable Samosas
+
+Samosas are a classic Indian dish, but most of the time you will not eat them in an Indian restaurant, instead you will enjoy them as part of a buffet. But, you can actually get samosas in most Indian restaurants, and they are so much better than any frozen ones that you have likely eaten before.
+
+Most Indian restaurants bake their samosas, and this allows you to really enjoy the vegetable filling inside. But the best thing about this dish isn’t the samosas themselves, instead it is the sauces that you dip them in. So choose your sauces carefully.
+
+Also Related: 21 Different Types of Donuts
+Curried Vegetables
+
+Curried vegetables are an Indian dish, but they are also one that is widely enjoyed across a lot of different cuisines. A lot of the time, when people prepare vegetarian dishes, they will create something very similar to curried vegetables. But the one key difference between these creations, and Indian Curried Vegetables, is the flavor.
+
+Most of the time, pot-roasted vegetables tend to be bland and flavorless, but Indian Curried Vegetables are the complete opposite. This is because of the classic spices that are added to the vegetables to give them that kick that is so popular in Indian cuisine.
+
+Masoor Dal
+
+Finally, let’s wrap this up with Masoor Dal. We suggested Split Pea Yellow Dal earlier, but this is very different to Masoor Dal. Masoor Dal is made using red or orange lentils, mixed with ingredients of a similar color, such as tomatoes, along with chilies and spices.
+
+This dish is traditionally only suitable for vegetarians, but some Indian restaurants have modified this recipe to make it suitable for vegans too. So, if you follow this style of diet, ask your restaurant if they offer Vegan Masoor Dal. In most cases they will, and it will be incredibly delicious.
+

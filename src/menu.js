@@ -15,7 +15,7 @@ class Menu {
   buildMenuItem(item) {
     const gfSpan = (item.gfAvailable) ? ` <span class="gfa" aria-label="available gluten-free">(g)</span>` : ""
     const veganSpan = (item.veganAvailable) ? ` <span class="va" aria-label="available vegan">(v)</span>` : ""
-    return `<li><h3>${item.name}</h3><p class="price">${item.price}</p><p class="description">${item.description}${gfSpan}${veganSpan}</p></li>`
+    return `<li><h3>${item.name}</h3><span class="price">${item.price}</span><p class="description">${item.description}${gfSpan}${veganSpan}</p></li>`
   }
 
   buildMenuCategory(category) {
